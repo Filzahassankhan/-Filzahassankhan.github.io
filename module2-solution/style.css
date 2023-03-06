@@ -4,14 +4,14 @@
     }
 
     body {
-        background-color: white;
+        background-color: brown;
     }
 
     h1 {
        margin-bottom: 15px;
-       text-align: center;
-       color:#01030b;
-       font-size: 30px;
+    text-align: center;
+    color: #ff4532;
+    font-size: 50px;
     }
 
     section {
@@ -27,7 +27,7 @@
 
     div {
         position: relative;
-        background-color:#999999;
+        background-color: gray;
         border: 3.5px solid black;
         width: 100%;
         margin-left: auto;
@@ -37,49 +37,49 @@
 
     .sub1 {
         float: right;
-        width: 130px;
-        padding: 3px;
+        width: 100px;
+        padding: 5px;
         margin: -3px -3px 0px;
-        border: 3px solid black;
+        border: 3.5px solid black;
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color:#d59898;
+        background-color: #FFB6C1;
 
     }
 
     .sub2 {
         float: right;
         color: white;
-        width: 130px;
-        padding: 3px;
+        width: 100px;
+        padding: 5px;
         margin: -3px -3px 0px;
-        border: 3px solid black;
+        border: 3.5px solid black;
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color:#c14543;
+        background-color: #FF0000;
 
     }
 
     .sub3 {
         color: black;
         float: right;
-        width: 130px;
-        padding: 3px;
+        width: 100px;
+        padding: 5px;
          margin: -3px -3px 0px;
-        border: 3px solid black;
+        border: 3.5px solid black;
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color:#e5d198;
+        background-color: rgb(223, 212, 121);
 
     }
 
     .content {
         padding: 5px;
         border: none;
-        background-color:#999999;
+        background-color: gray;
         font-family: Helvetica;
         color: black;
         margin: 3px ;
@@ -93,7 +93,7 @@
 
     /*desktop version*/
     @media (min-width: 992px) {
-        .cl-lg-4 {
+        .column-lg-4 {
             float: left;
             width: 33.33%;
         }
@@ -101,14 +101,14 @@
 
     /*tablet version*/
     @media (min-width: 768px) and (max-width: 991px) {
-        .cl-md-6 {
+        .colmn-md-6 {
             float: left;
             width: 50%;
             margin-left: auto;
             margin-right: auto;
         }
 
-        .cl-sm-12 {
+        .colmn-md-12 {
             float: left;
             width: 100%;
             margin-left: auto;
@@ -118,7 +118,7 @@
 
     /*mobile version*/
     @media (max-width: 767px) {
-        .cl-sm-12 {
+        .colmn-sm-12 {
             float: left;
             width: 100%;
         }
