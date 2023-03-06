@@ -4,14 +4,14 @@
     }
 
     body {
-        background-color: brown;
+        background-color: white;
     }
 
     h1 {
        margin-bottom: 15px;
-    text-align: center;
-    color: #ff4532;
-    font-size: 50px;
+       text-align: center;
+       color:#01030b;
+       font-size: 30px;
     }
 
     section {
@@ -27,7 +27,7 @@
 
     div {
         position: relative;
-        background-color: gray;
+        background-color:#999999;
         border: 3.5px solid black;
         width: 100%;
         margin-left: auto;
@@ -37,49 +37,49 @@
 
     .sub1 {
         float: right;
-        width: 100px;
-        padding: 5px;
+        width: 130px;
+        padding: 3px;
         margin: -3px -3px 0px;
-        border: 3.5px solid black;
+        border: 3px solid black;
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color: #FFB6C1;
+        background-color:#d59898;
 
     }
 
     .sub2 {
         float: right;
         color: white;
-        width: 100px;
-        padding: 5px;
+        width: 130px;
+        padding: 3px;
         margin: -3px -3px 0px;
-        border: 3.5px solid black;
+        border: 3px solid black;
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color: #FF0000;
+        background-color:#c14543;
 
     }
 
     .sub3 {
         color: black;
         float: right;
-        width: 100px;
-        padding: 5px;
+        width: 130px;
+        padding: 3px;
          margin: -3px -3px 0px;
-        border: 3.5px solid black;
+        border: 3px solid black;
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color: rgb(223, 212, 121);
+        background-color:#e5d198;
 
     }
 
     .content {
         padding: 5px;
         border: none;
-        background-color: gray;
+        background-color:#999999;
         font-family: Helvetica;
         color: black;
         margin: 3px ;
